@@ -1,0 +1,50 @@
+## Interface: 16001
+## Title: Quest Explorer |cfff2c75bForever|r
+## Notes: Explore what a quest involves before you take it - what it asks for, what it rewards, where its chain ends - plus a dungeon run planner that marks each step on your map.
+## Author: Ryan
+## Version: 2.11.1
+## SavedVariables: QuestExplorerForeverDB, QuestPreviewDB
+## OptionalDeps: QuestieDB, Questie
+## X-Category: Quests
+## IconTexture: Interface\Icons\INV_Misc_Spyglass_02
+
+# Foundation
+Core.lua
+Widgets.lua
+Art.lua
+
+# Data
+Source.lua
+Index.lua
+Rewards.lua
+Sweep.lua
+Chain.lua
+Render.lua
+Search.lua
+Waypoint.lua
+Travel.lua
+Checklist.lua
+Guide.lua
+
+# In-world previews
+Tooltip.lua
+Panel.lua
+Hooks.lua
+QuestieBridge.lua
+Tracker.lua
+MapPins.lua
+MinimapButton.lua
+
+# Window
+Controller.lua
+Window.lua
+Browse.lua
+Plan.lua
+Views.lua
+Welcome.lua
+Route.lua
+Link.lua
+
+# Commands
+Debug.lua
+Options.lua

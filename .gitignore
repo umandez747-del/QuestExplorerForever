@@ -1,0 +1,18 @@
+# WoW saved variables live in WTF/, never in the addon folder - but guard anyway
+*.lua.bak
+*.bak
+*.orig
+*.rej
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Python bytecode from tools/
+__pycache__/
+*.pyc
